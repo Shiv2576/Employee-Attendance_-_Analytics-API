@@ -1,5 +1,10 @@
-__pycache__/
-.env
-.venv/
-Summarize.md
-context.md
+# Whitelist: only the submission files are tracked
+/*
+!/.gitignore
+!/README.md
+!/REVIEW.md
+!/DECISIONS.md
+!/requirements.txt
+!/app/
+/app/*
+!/app/main.py
